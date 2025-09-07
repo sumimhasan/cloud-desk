@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import WorkTable from "@/global-components/worktable-tab";
+import WorkTable from "./worktable-tab";
 import ProjectBannerAnimated from "./project-banner";
 
 export default function WorkTablePage() {

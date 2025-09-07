@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '@/global-components/navbar';
 import Sidebar from '@/global-components/sidebar';
 import RightSidebar from '@/global-components/rightbar';
-import TodayPageContent from '@/global-components/todaypagecomp';
+import TodayPageContent from './todaypagecomp';
 const dummyMembers = [
   { id: 1, name: "Alice Johnson", avatarUrl: "https://i.pravatar.cc/150?img=1", isActive: true },
   { id: 2, name: "Bob Smith", avatarUrl: "https://i.pravatar.cc/150?img=2", isActive: false },

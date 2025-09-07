@@ -13,7 +13,7 @@ interface RightSidebarProps {
 
 const RightSidebar: React.FC<RightSidebarProps> = ({ members }) => {
   // Tailwind class variables
-  const sidebarClass = "h-screen w-64 bg-gray-900 text-white flex flex-col p-4 space-y-8 overflow-y-scroll fixed right-0 top-16";
+  const sidebarClass = "h-full  w-64 bg-gray-900 text-white flex flex-col p-4 space-y-8 overflow-y-scroll fixed right-0 top-16";
   const searchContainerClass = "p-2 mb-4";
   const searchInputClass = "w-full p-2 rounded border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400";
   const memberListClass = "flex-1 overflow-y-scroll space-y-4";

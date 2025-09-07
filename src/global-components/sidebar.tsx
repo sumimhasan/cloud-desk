@@ -18,7 +18,7 @@ const Sidebar: React.FC = () => {
   ];
 
   // Tailwind class variables
-  const sidebarClass = "h-screen w-64 bg-gray-900 text-white flex flex-col p-4 space-y-8 overflow-y-scroll";
+  const sidebarClass = "w-64 h-full bg-gray-900 text-white flex flex-col p-4 space-y-8 overflow-y-scroll";
   const groupClass = "flex flex-col space-y-3";
   const linkItemClass = "h-12 bg-gray-700 rounded-[35px] flex items-center px-4 cursor-pointer hover:bg-gray-600 transition";
   const linkIconClass = "mr-3 w-4 h-4";
