@@ -6,6 +6,9 @@ import {
   faEnvelope,
   faTable,
   faCalendarDay,
+  faFileZipper,
+  faFileLines,
+  faFilePen
 } from "@fortawesome/free-solid-svg-icons";
 
 const Sidebar: React.FC = () => {
@@ -42,14 +45,19 @@ const Sidebar: React.FC = () => {
       {/* Group 2 */}
       <div>
         <div className={groupBoxClass}>
-          {/* Empty link bar for now */}
+          <div><FontAwesomeIcon icon={faFileZipper} size="2x" className="hover:text-gray-300"/></div>
+          <div><FontAwesomeIcon icon={faFileLines}  size="2x" className="hover:text-gray-300"/></div>
+          <div><FontAwesomeIcon icon={faFilePen}    size="2x" className="hover:text-gray-300"/></div>
         </div>
       </div>
 
       {/* Group 3 */}
       <div className={groupClass}>
-        <div className={groupBoxLargeClass}>Link A</div>
-        <div className={groupBoxLargeClass}>Link B</div>
+        <div className={groupBoxLargeClass}>
+        </div>
+        <div className={groupBoxLargeClass}>
+
+        </div>
         <div className={groupBoxSmallClass}>
           {/* Last one like group 2 */}
         </div>
